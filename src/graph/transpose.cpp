@@ -1,6 +1,6 @@
 #include "../template.cpp"
 
-vivi get_transpose(vivi &adj) // O(v+e)
+vivi get_transposed(vivi &adj) // O(v+e)
 {
     ll n = adj.size();
     vivi transposed(n);
